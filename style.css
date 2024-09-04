@@ -1,0 +1,82 @@
+body{
+    background-image: url(https://mrwallpaper.com/images/hd/hd-football-nike-black-hhdfdw95z8vh702t.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+p{
+    color: beige;
+}
+span{
+    color: antiquewhite;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.box{
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box img{
+    width: 300px;
+}
+button{
+    width: 50%;
+    padding: 10px;
+    color: black;
+    background-color: darkkhaki;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.boxes{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+}
+ul{
+    list-style: none;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+
+}
+li a{
+    text-decoration: none;
+    color: beige;
+}
+li a:hover{
+    color: burlywood;
+}
+.reng{
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logo{
+    width: 150px;  
+}
+.logo img{
+    width: 100px  ;
+}
+h2{
+    color: bisque;
+}
+.button{
+    width: 400px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
